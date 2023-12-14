@@ -1,0 +1,283 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>PERMINTAAN DATA SIPP</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sacramento&family=Work+Sans:wght@300;400;600&display=swap"
+        rel="stylesheet">
+
+    <!-- cdn icon bostrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+   
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+    <div class="col-md-6">
+<br>
+        <div class="fw-bold">UPDATE DATA SIPP PERSONEL POLRES MAROS</div> 
+        <br>
+       
+        <form name="my-form">
+            <div class="col-12">
+                <div class="mb-3">
+                    <label for="nama" class="form-label">Nama Lengkap (TIDAK DISINGKAT SESUAI KEP PERTAMA)</label>
+                    <input type="text" class="form-control" id="nama" name="nama" required>
+                </div>
+            </div>
+
+            <div class="col-12">
+                <div class="mb-3">
+                    <label for="pangkat" class="form-label">PANGKAT</label>
+                    <select name="pangkat" id="pangkat" class="form-select"  required>
+                        <option selected>Pilih Salah Satu</option>
+                        <!-- <option value="kombespol">Kombes Pol</option> -->
+                        <option value="akbp">Akbp</option>
+                        <option value="kompol">Kompol</option>
+                        <option value="akp">Akp</option>
+                        <option value="iptu">Iptu</option>
+                        <option value="ipda">Ipda</option>
+                        <option value="aiptu">Aiptu</option>
+                        <option value="aipda">Aipda</option>
+                        <option value="bripka">Bripka</option>
+                        <option value="brigpol">Brigpol</option>
+                        <option value="briptu">Briptu</option>
+                        <option value="bripda">Bripda</option>
+                        <option value="abrip">Abrip</option>
+                        <option value="abriptu">Abriptu</option>
+                        <option value="abripda">Abripda</option>
+                        <option value="bharaka">Bharaka</option>
+                        <option value="bharatu">Bharatu</option>
+                        <option value="bharada">Bharada</option>
+                        <option value="pembutama">Pembutama</option>
+                        <option value="pembmadya">Pembmadya</option>
+                        <option value="pembmuda">Pembmuda</option>
+                        <option value="pembina I">Pembina I</option>
+                        <option value="pembina">Pembina</option>
+                        <option value="penata I">Penata I</option>
+                        <option value="penata">Penata</option>
+                        <option value="penda I">Penda I</option>
+                        <option value="penda">Penda</option>
+                        <option value="pengatur I">Pengatur I</option>
+                        <option value="pengatur">Pengatur</option>
+                        <option value="pengda I">Pengda I</option>
+                        <option value="pengda">Pengda</option>
+                        <option value="juru I">Juru I</option>
+                        <option value="juru">Juru</option>
+                        <option value="jurmud I">Jurmud I</option>
+                        <option value="jurmud">Jurmud</option>
+                        <option value="capeg">Capeg</option>
+                    </select>
+                </div>
+            </div>
+
+
+            <div class="col-12">
+                <div class="mb-3">
+                    <label for="nrp" class="form-label">NRP</label>
+                    <input type="number" class="form-control" id="nrp" name="nrp" required>
+                </div>
+            </div>
+
+            <div class="col-12">
+                <div class="mb-3">
+                    <label for="jabatan" class="form-label">Jabatan</label>
+                    <input type="text" class="form-control" id="jabatan" name="jabatan" required>
+                </div>
+            </div>
+            <div class="col-12">
+                <div class="mb-3">
+                    <label for="kesatuan" class="form-label">Kesatuan / Polsek , Sat atau Bag</label>
+                    <input type="text" class="form-control" id="kesatuan" name="kesatuan" required>
+                </div>
+            </div>
+          
+            <div class="col-12">
+                <div class="mb-3">
+                    <label for="pendidikan" class="form-label">PENDIDIKAN AKHIR</label>
+                    <select name="pendidikan" id="pendidikan" class="form-select"  required>
+                        <option selected>Pilih Salah Satu</option>
+                        <option value="sd">SD</option>
+                        <option value="smp">SMP</option>
+                        <option value="smk">SMA</option>
+                        <option value="ma">MA</option>
+                        <option value="smk">SMK</option>
+                        <option value="s1">S1</option>
+                        <option value="s2">S2</option>
+                        <option value="s3">S3</option>
+                    </select>
+                </div>
+            </div>
+
+
+            <div class="col-12">
+                <div class="mb-3">
+                    <label for="tempat-lahir" class="form-label">Tempat Lahir</label>
+                    <input type="text" class="form-control" id="tempat-lahir" name="tempat-lahir" required>
+                </div>
+            </div>
+
+            <div class="col-12">
+                <div class="mb-3">
+                    <label for="tanggal-lahir" class="form-label">Tanggal Lahir</label>
+                    <input type="date" class="form-control" id="tanggal-lahir" name="tanggal-lahir" required>
+                </div>
+            </div>
+
+            <div class="col-12">
+                <div class="mb-3">
+                    <label for="alamat" class="form-label">Alamat Lengkap Rumah</label>
+                    <input type="text" class="form-control" id="alamat" name="alamat" required>
+                </div>
+            </div>
+            <div class="col-12">
+                <div class="mb-3">
+                    <label for="suku" class="form-label">Suku Bangsa / Bugis ,makassar DLL</label>
+                    <input type="text" class="form-control" id="suku" name="suku" required>
+                </div>
+            </div>
+            
+            <div class="col-12">
+                <div class="mb-3">
+                    <label for="jumlah-anak" class="form-label">Jumlah Anak</label>
+                    <select name="jumlah-anak" id="jumlah-anak" class="form-select"  required>
+                        <option selected>Pilih Salah Satu</option>
+                        <option value="0">0</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="col-12">
+                <div class="mb-3">
+                    <label for="agama" class="form-label">AGAMA</label>
+                    <select name="agama" id="agama" class="form-select"  required>
+                        <option selected>Pilih Salah Satu</option>
+                        <option value="islam">ISLAM</option>
+                        <option value="kristen protestan">KRISTEN PROTESTAN</option>
+                        <option value="kristen katolik">KRISTEN KATOLIK</option>
+                        <option value="budha">BUDHA</option>
+                        <option value="hindu">HINDU</option>
+                        <option value="konghucu">KONGHUCU</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="col-12">
+                <div class="mb-3">
+                    <label for="hp" class="form-label">Nomor Telepon</label>
+                    <input type="number" class="form-control" id="hp" name="hp" required>
+                </div>
+            </div>
+
+            <div class="col-12">
+                <div class="mb-3">
+                    <label for="TMTPangkatPertama" class="form-label">TMT Pangkat Pertama</label>
+                    <input type="date" class="form-control" id="TMT-Pangkat-Pertama" name="TMT-Pangkat-Pertama" required>
+                </div>
+            </div>
+            <div class="col-12">
+                <div class="mb-3">
+                    <label for="TMTPangkatTerakhir" class="form-label">TMT Pangkat Terakhir</label>
+                    <input type="date" class="form-control" id="TMT-Pangkat-Terakhir" name="TMT-Pangkat-Terakhir" required>
+                </div>
+            </div>
+
+        
+
+<!-- alert -->
+<div class="alert alert-success alert-dismissible fade show d-none my-alert" role="alert">
+    <strong>Terima Kasih !!</strong> Jawaban anda telah kami terima
+    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+</div>
+
+<!-- kirim -->
+            <div class="col-12" style="margin-top: 30px;">
+               <button type="submit" class="btn btn-primary btn-kirim">KIRIM</button>
+
+
+               <button class="btn btn-primary btn-loading d-none" type="button" disabled>
+                <span class="spinner-border spinner-border-sm" aria-hidden="true"></span>
+                <span role="status">Loading...</span>
+              </button>
+            </div>
+
+        </form>
+        
+        <small class="block">Dev By Brigpol Romi Sunggara  <a href="https://instagram.com/romisunggara?igshid=OGQ5ZDc2ODk2ZA==">@romisunggara</a>
+    </small>
+
+    <div class="container">
+        <div class="row">
+        </div>
+    </div>
+
+    
+    <small class="block">
+        &copy; 2023 BIRO SDM POLDA SULSEL
+        </small>
+
+</div>
+
+
+<!-- <div style="padding:20px">
+<iframe weidth="1000" height="600" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQzTI49L667Kajyy1tyu78d3J6kb0jlyMqocMF8a-zzxNPoUg8hMJpmMeUy-tTaW-hV-3xA4GSVrqyU/pubhtml?gid=1328465709&single=true"></iframe>
+</div>
+</div> -->
+
+
+</body>
+<script>
+
+    // url script app google sheet
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbwgYY841VKhuu8-ckK4ULEoGvOUDlue1vDlD4rhtUGwuP3k3sDCpYg5JGjdHjeDyBIj/exec';
+    // nama form
+    const form = document.forms['my-form'];
+    const btnKirim = document.querySelector('.btn-kirim');
+    const btnLoading = document.querySelector('.btn-loading');
+    const myAlert = document.querySelector('.my-alert');
+
+
+    form.addEventListener('submit', e => {
+      e.preventDefault();
+// ketika tombol submit di klik
+// tampilkan tombol loading, hilangkan tombol kirim
+btnLoading.classList.toggle('d-none');
+btnKirim.classList.toggle('d-none');
+
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+// tampilkan tombol kirim, hilangkan tombol loading
+            btnLoading.classList.toggle('d-none');
+            btnKirim.classList.toggle('d-none');
+// tampilkan alert
+            myAlert.classList.toggle('d-none');
+// reset form
+            form.reset();
+            console.log('Success!', response);
+        
+        
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bs5-lightbox@1.8.3/dist/index.bundle.min.js"></script>
